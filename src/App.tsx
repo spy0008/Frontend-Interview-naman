@@ -1,9 +1,15 @@
-
+import Content from "./components/Content";
+import Header from "./components/Header";
+import Navbar from "./components/Navbar";
 
 const App = () => {
-  return <div className="text-6xl text-blue-500">
- hello
-  </div>;
+  return (
+    <>
+      <Navbar />
+      <Header/>
+      <Content/>
+    </>
+  );
 };
 
 export default App;
