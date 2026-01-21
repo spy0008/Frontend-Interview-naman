@@ -8,11 +8,11 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import BlogCardSkeleton from "@/components/BlogCardSkeleton";
+import BlogCardSkeleton from "@/components/skeleton/BlogCardSkeleton";
+import BlogCoverImage from "@/components/skeleton/BlogCoverImageSkeleton";
 import { getReadingTime } from "@/lib/utils";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { FreeMode } from "swiper/modules";
-
 import "swiper/css";
 import "swiper/css/free-mode";
 
@@ -73,7 +73,7 @@ const AllBlogCards = () => {
                       {blog.category[0]}
                     </span>
                     <span className="text-sm text-muted-foreground">
-                      {blog.date.slice(0, 10)}
+                      {blog.date?.slice(0, 10)}
                     </span>
                   </div>
 
@@ -107,11 +107,8 @@ const AllBlogCards = () => {
 
         {singleBlog && (
           <article className="max-w-4xl mx-auto space-y-5">
-            <img
-              src={singleBlog.coverImage}
-              alt={singleBlog.title}
-              className="h-64 md:h-80 w-full rounded-xl object-cover"
-            />
+            <BlogCoverImage src={singleBlog.coverImage} alt={singleBlog.title} />
+
 
             <h1 className="text-3xl md:text-5xl font-bold">
               {singleBlog.title}

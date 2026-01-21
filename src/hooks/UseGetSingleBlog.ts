@@ -1,4 +1,4 @@
-import { fetchBlogById } from "@/modules/AllBlogsPage";
+import { fetchBlogById } from "@/modules/BlogsPage";
 import type { Blog } from "@/types/blogs";
 import { useQuery } from "@tanstack/react-query";
 

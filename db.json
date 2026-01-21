@@ -117,6 +117,18 @@
       "date": "2025-12-10T16:30:00.000Z",
       "coverImage": "https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg",
       "content": "Ethics form the backbone of trust in financial systems. With increased automation and complex instruments, ethical judgment plays a crucial role in decision-making. Short-term gains achieved through unethical practices often lead to long-term damage.\n\nProfessionals must prioritize transparency, integrity, and accountability. Strong ethical frameworks protect not only clients but also the credibility of the profession.\n\nIn an era of rapid change, ethics remain a constant guiding principle."
+    },
+    {
+      "id": "4732",
+      "title": "The Rise of AI-Powered Web Development",
+      "description": "How artificial intelligence is transforming the way modern web applications are built.",
+      "category": [
+        "AI",
+        "TECH"
+      ],
+      "content": "Artificial Intelligence is rapidly changing the landscape of web development. From AI-assisted code generation to automated testing and intelligent UI personalization, developers are now able to build faster, smarter, and more scalable applications. Tools like GitHub Copilot, ChatGPT, and AI-based design systems are reducing development time and improving code quality. As AI continues to evolve, the future of web development will be more automated, adaptive, and developer-friendly.",
+      "coverImage": "https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg",
+      "date": "2026-01-20T13:31:47.272Z"
     }
   ]
 }

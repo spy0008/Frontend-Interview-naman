@@ -1,5 +1,5 @@
 import { useQuery } from "@tanstack/react-query";
-import { fetchAllBlogs } from "../modules/AllBlogsPage/index.ts";
+import { fetchAllBlogs } from "../modules/BlogsPage/index.ts";
 import type { Blog } from "@/types/blogs.ts";
 
 export const useGetAllBlogs = () => {

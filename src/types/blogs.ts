@@ -1,11 +1,11 @@
-export type BlogCategory = "FINANCE" | "TECH" | "AI" | "STARTUP"; 
+export type BlogCategory = "FINANCE" | "TECH" | "AI" | "STARTUP";
 
 export interface Blog {
   id: number;
   title: string;
   category: BlogCategory[];
   description: string;
-  date: string; 
+  date: string;
   coverImage: string;
   content: string;
 }
@@ -16,5 +16,10 @@ export interface CreateBlogPayload {
   description: string;
   coverImage: string;
   content: string;
+  date?: string;
 }
 
+export interface BlogCoverImageProps {
+  src: string;
+  alt: string;
+}
